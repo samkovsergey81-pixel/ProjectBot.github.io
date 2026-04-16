@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бот-помощник | Защита проекта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🤖 Бот-помощник</h2>
+            <p>Демонстрация к защите проекта</p>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    👋 Здравствуйте! Я демонстрационный бот для защиты проекта. Спросите меня о:
+                    <br>• Что такое бот?
+                    <br>• Виды ботов
+                    <br>• Эффективность применения
+                    <br>• Как создать бота
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Напишите сообщение..." autocomplete="off">
+            <button id="send-btn">Отправить</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
